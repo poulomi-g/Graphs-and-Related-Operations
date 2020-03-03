@@ -13,7 +13,7 @@ Running Instructions:
     write ./exercise.o followed by desired file,(edmonton-roads-2.0.1.txt in this case)
     to execute the program
     
-Changes to code on eClass:
+Function description:
 
     * int count_components(Digraph* g): Counts components in given graph (MODIFIED)
     * Digraph* read_city_graph_undirected(char filename[]): Reads given file input 
