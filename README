@@ -1,0 +1,31 @@
+
+Included Files:
+    * graph_concepts.cpp
+    * digraph.cpp
+    * digraph.h
+    * edmonton-roads-2.0.1.txt
+    * Makefile
+    * README
+    
+Running Instructions:
+
+    1. In the correct directory, type in `make` to the terminal and then
+    write ./exercise.o followed by desired file,(edmonton-roads-2.0.1.txt in this case)
+    to execute the program
+    
+Changes to code on eClass:
+
+    * int count_components(Digraph* g): Counts components in given graph (MODIFIED)
+    * Digraph* read_city_graph_undirected(char filename[]): Reads given file input 
+    and makes a graph accordingly (MODIFIED)
+    * split(): used in previous function to split a given string and return a vector
+
+Assumptions: 
+    * Program is executed in the correct directory with Makefile present.
+    * Provided file has information in correct format.
+
+Reference:
+    * https://stackoverflow.com/a/10861816: How to use sstream to
+    split a string with delimiter.
+
+------- Dont use/modify without explicit permission please and thanks -------
